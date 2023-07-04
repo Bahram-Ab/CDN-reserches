@@ -1,9 +1,12 @@
-#Monitoring In CDN
-##Introduction
+# Monitoring In CDN
+
+## Introduction
+
 Monitoring refers to the process of observing and tracking the performance, progress, or activities of a system, process, or situation. It involves collecting data, analyzing it, and using the information to make informed decisions or take necessary actions. Monitoring can be done manually or through the use of automated tools and technologies.
 System monitoring, in the context of CDN (Content Delivery Network) works, involves observing and tracking the performance and health of the CDN infrastructure and services. It includes monitoring various aspects such as network connectivity, server availability, response times, bandwidth usage, and content delivery efficiency. The goal of system monitoring in CDN operations is to ensure that the CDN is delivering content effectively, efficiently, and reliably to end-users. It helps identify any issues or bottlenecks in the CDN system, allowing for timely troubleshooting and optimization to deliver a seamless and high-quality user experience. System monitoring in CDN works typically involves real-time data collection, analysis, and alerting mechanisms to proactively address any potential performance or availability problems.
 
-#How does monitoring on CDN works ?
+# How does monitoring on CDN works ?
+
 Monitoring in CDN works involves tracking and analyzing various aspects of the CDN infrastructure and services to ensure optimal performance and availability. Here is a general overview of how monitoring on CDN works:
 
 1. **Real-time data collection:** Monitoring tools collect real-time data from different components of the CDN system, such as edge servers, network devices, and load balancers. This data includes _metrics_ like server response times, network latency, cache hit ratios, bandwidth usage, and content delivery speeds.
@@ -13,7 +16,8 @@ Monitoring in CDN works involves tracking and analyzing various aspects of the C
 5. **Capacity planning:** Monitoring helps in capacity planning by tracking resource utilization, bandwidth usage, and traffic patterns. This allows CDN operators to anticipate future demands and scale their infrastructure accordingly, ensuring that there is enough capacity to handle increasing traffic and deliver content effectively.
 6. **Reporting and analytics:** Monitoring tools often provide reporting and analytics capabilities, allowing CDN operators to generate comprehensive reports on system performance, uptime, and other key _metrics_. These reports can be used for performance analysis, compliance monitoring, and decision-making purposes.
 
-#What data in this process will be monitor ?
+# What data in this process will be monitor ?
+
 In the process of monitoring a CDN, various data points and _metrics_ are typically monitored to ensure optimal performance and availability. Here are some of the key data points that are commonly monitored:
 
 1. **Server performance:** This includes _metrics_ such as CPU usage, memory utilization, disk space, and server response times. Monitoring these _metrics_ helps ensure that the servers in the CDN infrastructure are operating efficiently and are able to handle incoming requests effectively.
@@ -25,7 +29,8 @@ In the process of monitoring a CDN, various data points and _metrics_ are typica
 7. **Error rates:** Monitoring error rates tracks the occurrence of errors or failures during content delivery. This can include HTTP errors, timeouts, or other issues that may impact the user experience. Monitoring error rates helps identify and address any issues that may cause disruptions or errors in content delivery.
    These are just some of the key data points that are typically monitored in the process of monitoring a CDN. The specific _metrics_ and data points monitored may vary depending on the CDN provider and the specific requirements of the CDN system.
 
-#Conclusion
+# Conclusion
+
 In conclusion, system monitoring plays a crucial role in ensuring the optimal performance, availability, and reliability of a CDN or any system. By monitoring various _metrics_ and data points, such as server performance, network latency, cache hit ratios, bandwidth usage, and content delivery speeds, monitoring tools provide insights into the system's health and identify areas for improvement.
 The data collected through monitoring allows for real-time analysis, visualization, and reporting, enabling stakeholders to make informed decisions and take proactive measures to address any performance or availability issues. Monitoring tools also facilitate capacity planning, helping CDN operators anticipate future demands and scale their infrastructure accordingly.
 There are several tools available for system monitoring, each with its own set of features and capabilities. Some popular tools include Nagios, Zabbix, Prometheus, Datadog, SolarWinds SAM, PRTG Network Monitor, New Relic, Splunk, and Grafana.
