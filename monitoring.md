@@ -1,5 +1,13 @@
 # Monitoring In CDN
 
+| Introduction                                |
+| ------------------------------------------- |
+| How does monitoring on CDN works ?          |
+| ------- ----------------------------------- |
+| What data in this process will be monitor ? |
+| ------------------------------------------- |
+| Conclusion                                  |
+
 ## Introduction
 
 Monitoring refers to the process of observing and tracking the performance, progress, or activities of a system, process, or situation. It involves collecting data, analyzing it, and using the information to make informed decisions or take necessary actions. Monitoring can be done manually or through the use of automated tools and technologies.
