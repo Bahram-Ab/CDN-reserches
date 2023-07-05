@@ -15,7 +15,7 @@ ELK stands for Elasticsearch, Logstash, and Kibana. Elasticsearch is a search an
 
 ## Elasticsearch
 
-The open-source, distributed, RESTful, JSON-based search engine, is scalable, and flexible. It is a No_SQL[^no-sql] database Document-oriented[^Document-oriented]and high-performance in plain text search.
+The open-source, distributed, RESTful, JSON-based search engine, is scalable, and flexible. It is a No_SQL database Document-oriented[^Document-oriented]and high-performance in plain text search.
 It has indexing[^Indexing] and sharding[^data-base-sharding] ability to boost performance and overcome store and process limitations.
 
 [^Document-oriented]: They store data as documents, which can be JSON, BSON, or other formats. Each document represents a single entity or object and contains all of the relevant data for that entity.
@@ -34,14 +34,16 @@ Filebeat is designed to read files from your system. It is particularly useful f
 
 ![ELK Stack modeling](ELKStackModel.webp)
 
-[^no-sql]: NoSQL (not only SQL) databases are non-tabular databases and store data differently than relational tables. NoSQL databases come in a variety of types based on their data model. The main types are document, key-value, wide-column, and graph. Here is a comparison between SQL and NoSQL:
+### ps. difference between sql and no-sql
 
-> | SQL                                                                                                | NoSQL                                                                     |
-> | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
-> | Relational database management system (RDBMS)                                                      | Non-relational database management system                                 |
-> | Suitable for structured data with predefined schema                                                | Suitable for unstructured and semi-structured data                        |
-> | Data is stored in tables with columns and rows                                                     | Data is stored in collections or documents                                |
-> | Follows ACID properties (Atomicity, Consistency, Isolation, Durability) for transaction management | follows CAP theorem (Consistency, Availability, and Partition tolerance). |
-> | Supports JOIN and complex queries                                                                  | Does not support JOIN and complex queries                                 |
-> | Uses normalized data structure                                                                     | Uses denormalized data structure                                          |
-> | Requires vertical scaling to handle large volumes of data                                          | Horizontal scaling is possible to handle large volumes of data            |
+NoSQL (not only SQL) databases are non-tabular databases and store data differently than relational tables. NoSQL databases come in a variety of types based on their data model. The main types are document, key-value, wide-column, and graph. Here is a comparison between SQL and NoSQL:
+
+| SQL                                                                                                | NoSQL                                                                     |
+| -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| Relational database management system (RDBMS)                                                      | Non-relational database management system                                 |
+| Suitable for structured data with predefined schema                                                | Suitable for unstructured and semi-structured data                        |
+| Data is stored in tables with columns and rows                                                     | Data is stored in collections or documents                                |
+| Follows ACID properties (Atomicity, Consistency, Isolation, Durability) for transaction management | follows CAP theorem (Consistency, Availability, and Partition tolerance). |
+| Supports JOIN and complex queries                                                                  | Does not support JOIN and complex queries                                 |
+| Uses normalized data structure                                                                     | Uses denormalized data structure                                          |
+| Requires vertical scaling to handle large volumes of data                                          | Horizontal scaling is possible to handle large volumes of data            |
