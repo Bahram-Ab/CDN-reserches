@@ -34,7 +34,7 @@ Filebeat is designed to read files from your system. It is particularly useful f
 
 ![ELK Stack modeling](ELKStackModel.webp)
 
-### ps. difference between sql and no-sql
+## PS. difference between SQL and No-SQL
 
 NoSQL (not only SQL) databases are non-tabular databases and store data differently than relational tables. NoSQL databases come in a variety of types based on their data model. The main types are document, key-value, wide-column, and graph. Here is a comparison between SQL and NoSQL:
 
