@@ -36,12 +36,12 @@ Filebeat is designed to read files from your system. It is particularly useful f
 
 [^no-sql]: NoSQL (not only SQL) databases are non-tabular databases and store data differently than relational tables. NoSQL databases come in a variety of types based on their data model. The main types are document, key-value, wide-column, and graph. Here is a comparison between SQL and NoSQL:
 
-| SQL                                                                                                | NoSQL                                                                     |
-| -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| Relational database management system (RDBMS)                                                      | Non-relational database management system                                 |
-| Suitable for structured data with predefined schema                                                | Suitable for unstructured and semi-structured data                        |
-| Data is stored in tables with columns and rows                                                     | Data is stored in collections or documents                                |
-| Follows ACID properties (Atomicity, Consistency, Isolation, Durability) for transaction management | follows CAP theorem (Consistency, Availability, and Partition tolerance). |
-| Supports JOIN and complex queries                                                                  | Does not support JOIN and complex queries                                 |
-| Uses normalized data structure                                                                     | Uses denormalized data structure                                          |
-| Requires vertical scaling to handle large volumes of data                                          | Horizontal scaling is possible to handle large volumes of data            |
+> | SQL                                                                                                | NoSQL                                                                     |
+> | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+> | Relational database management system (RDBMS)                                                      | Non-relational database management system                                 |
+> | Suitable for structured data with predefined schema                                                | Suitable for unstructured and semi-structured data                        |
+> | Data is stored in tables with columns and rows                                                     | Data is stored in collections or documents                                |
+> | Follows ACID properties (Atomicity, Consistency, Isolation, Durability) for transaction management | follows CAP theorem (Consistency, Availability, and Partition tolerance). |
+> | Supports JOIN and complex queries                                                                  | Does not support JOIN and complex queries                                 |
+> | Uses normalized data structure                                                                     | Uses denormalized data structure                                          |
+> | Requires vertical scaling to handle large volumes of data                                          | Horizontal scaling is possible to handle large volumes of data            |
