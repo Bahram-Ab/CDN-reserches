@@ -1,4 +1,4 @@
-# Monitoring In CDN
+#  Installing ELK using package manager
 
 - [Introduction](#introduction)
 - [Installing ElK, using package managers](#installing-elk-using-package-managers)
@@ -11,7 +11,7 @@ Elasticsearch is a distributed search and analytics engine that helps to store a
 
 ## Installing ElK, using package managers
 
-I refrence you to this link below, but i'll give you a summery in 4 steps.
+I reference you to this link below, but i'll give you a summery in 4 steps.
 <https://vegastack.com/tutorials/how-to-install-elk-stack-on-ubuntu-20-04/>
 
 ### Step 1 - Install and Configure the Elasticsearch
