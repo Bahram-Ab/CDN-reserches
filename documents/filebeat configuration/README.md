@@ -1,0 +1,2 @@
+For Learn basics of filebeat configuration visit this [link](https://coralogix.com/blog/filebeat-configuration-best-practices-tutorial/).
+And for manage your configuration visit official [documentation](https://www.elastic.co/guide/en/beats/filebeat/current/configuring-howto-filebeat.html).
